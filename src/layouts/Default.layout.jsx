@@ -1,17 +1,17 @@
-// import React from "react";
+import React from "react";
 
 // // Components
-// import Navbar from "../components/Navbar/navbar.component";
-// import HeroCarousal from "../components/HeroCarousal/HeroCarousal.component";
+import Navbar from "../components/Navbar/navbar.component";
+import HeroCarousal from "../components/HeroCarousal/HeroCarousal.component";
 
-// const DefaultLayout = (props) => {
-//   return (
-//     <>
-//       <Navbar />
-//       <HeroCarousal />
-//       {props.children}
-//     </>
-//   );
-// };
+const DefaultLayout = (props) => {
+  return (
+    <>
+      <Navbar />
+    <HeroCarousal/>
+      {props.children}
+    </>
+  );
+};
 
-// export default DefaultLayout;
+export default DefaultLayout;
