@@ -64,11 +64,14 @@ const EntertainmentCardSlider = () => {
 
   return (
     <>
+
+   
       <Slider {...settings}>
         {EntertainmentImage.map((image) => (
           <EntertainmentCard src={image} />
         ))}
       </Slider>
+     
     </>
   );
 };
